@@ -4,6 +4,3 @@ $(function(){
     })
     
 })
-// $("#box-btn").on("click",function(){
-//         $(".result").animate({opacity:0},500);
-//     })
