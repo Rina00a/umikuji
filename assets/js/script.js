@@ -1,6 +1,7 @@
 $(function(){
     $("#box-btn").on("click",function(){
-        $(".beach").fadeOut();
+        // $(".beach")[0].fadeIn();
+        console.log($(".beach")[0]);
     })
     
 })
