@@ -16,6 +16,10 @@
     text-align: center;
 }
 
-.beach{
-    display: none;
+.beach img{
+    /* display: none; */
+    width: 400px;
+    height: 300px;
+
+
 }
