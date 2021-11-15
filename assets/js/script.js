@@ -19,7 +19,7 @@ $("#box-btn").on("click",function(){
 
        
         $('.beach').fadeIn(2000);
-        $('.box').fadeOut("fast");
+        $('.top').fadeOut("fast");
         $('#box-btn2').fadeIn(2000);
         
 })
@@ -45,6 +45,7 @@ $("#box-btn2").on("click",function(){
        
     $('.beach').fadeIn(2000);
     $('.box').fadeOut("fast");
+    
        
         
 

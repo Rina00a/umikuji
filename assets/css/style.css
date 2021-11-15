@@ -17,6 +17,24 @@ body{
     margin-top: 50px;
 }
 
+.top{
+    display: flex;
+
+}
+.hai1{
+    width: 200px;
+    height: 500px;
+    background-image: url(../img/hai1.png);
+    background-size: cover;
+}
+.hai2{
+    width: 200px;
+    height: 500px;
+    background-image: url(../img/hai2.png);
+    background-size: cover;
+    transform: scale(-1, 1);
+}
+
 .character1{
     width: calc(100vw / 5);
     height: calc(100vw / 5);
