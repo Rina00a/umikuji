@@ -19,7 +19,8 @@ $("#box-btn").on("click",function(){
 
        
         $('.beach').fadeIn(2000);
-        // $(".beach").animate({opacity:1},);
+        $('.box').fadeOut("fast");
+        
 
 })
 
