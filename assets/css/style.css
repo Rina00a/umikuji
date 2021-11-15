@@ -1,3 +1,6 @@
+body{
+    background-color: antiquewhite;
+}
 .container{
     width: 100%;
     height: auto;
@@ -6,20 +9,18 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    
-
+    /* background-color: antiquewhite; */
 }
 
 .character{
     display: flex;
     margin-top: 50px;
-
 }
 
 .character1{
     width: 300px;
     height: 300px;
-    background-image: url(../img/yuutan.jpeg);
+    background-image: url(../img/yuutan-removebg-preview.png);
     background-size: cover;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
@@ -53,7 +54,7 @@
 .character2{
     width: 300px;
     height: 300px;
-    background-image: url(../img/sawarin.png);
+    background-image: url(../img/satachan-removebg-preview.png);
     background-size: cover;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
@@ -87,7 +88,7 @@
 .character3{
     width: 300px;
     height: 300px;
-    background-image: url(../img/pikarya.jpeg);
+    background-image: url(../img/sawarin-removebg-preview.png);
     background-size: cover;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
@@ -121,7 +122,7 @@
 .character4{
     width: 300px;
     height: 300px;
-    background-image: url(../img/satachan.jpeg);
+    background-image: url(../img/pikarya-removebg-preview.png);
     background-size: cover;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
@@ -155,7 +156,7 @@
 .character5{
     width: 300px;
     height: 300px;
-    background-image: url(../img/shiichan.jpeg);
+    background-image: url(../img/shiichan-removebg-preview.png);
     background-size: cover;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
@@ -213,10 +214,8 @@
 .beach img{
     /* display: none; */
     margin-top: 15px;
-    width: 400px;
-    height: 300px;
-
-
+    width: 500px;
+    height: 400px;
 }
 
 p{
@@ -225,7 +224,6 @@ p{
 
 #box-btn{
     font-size: 30px;
-
     color: #fff;
     background-color: #4ab5e7b4;;
     border-radius: 100vh;
