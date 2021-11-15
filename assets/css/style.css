@@ -18,10 +18,10 @@ body{
 }
 
 .character1{
-    width: 300px;
-    height: 300px;
+    width: calc(100vw / 5);
+    height: calc(100vw / 5);
     background-image: url(../img/yuutan-removebg-preview.png);
-    background-size: cover;
+    background-size: 100%;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
       }
@@ -52,11 +52,11 @@ body{
         }
 }
 .character2{
-    width: 300px;
-    height: 300px;
-    background-image: url(../img/satachan-removebg-preview.png);
-    background-size: cover;
-    animation: poyoyon3 2.5s infinite;
+    width: calc(100vw / 5);
+    height: calc(100vw / 5);
+    background-image: url(../img/saatan-removebg-preview.png);
+    background-size: 100%;
+    /* animation: poyoyon3 2.5s infinite;
     opacity: 1;
       }
       @keyframes poyoyon3 {
@@ -83,13 +83,13 @@ body{
         }
         35% {
           transform: skew(0.3deg, 0.3deg);
-        }
+        } */
 }
 .character3{
-    width: 300px;
-    height: 300px;
+    width: calc(100vw / 5);
+    height: calc(100vw / 5);
     background-image: url(../img/sawarin-removebg-preview.png);
-    background-size: cover;
+    background-size: 100%;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
       }
@@ -120,10 +120,10 @@ body{
         }
 }
 .character4{
-    width: 300px;
-    height: 300px;
+    width: calc(100vw / 5);
+    height: calc(100vw / 5);
     background-image: url(../img/pikarya-removebg-preview.png);
-    background-size: cover;
+    background-size: 100%;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
       }
@@ -154,10 +154,10 @@ body{
         }
 }
 .character5{
-    width: 300px;
-    height: 300px;
+    width: calc(100vw / 5);
+    height: calc(100vw / 5);
     background-image: url(../img/shiichan-removebg-preview.png);
-    background-size: cover;
+    background-size: 100%;
     animation: poyoyon3 2.5s infinite;
     opacity: 1;
       }
