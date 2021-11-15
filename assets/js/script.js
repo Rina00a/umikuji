@@ -17,25 +17,14 @@ $("#box-btn").on("click",function(){
         var i = Number(randomNum);
 
         var beaches =[araha,emerarudo,tyurasan,bibi,sesoko,minna,kouri,okuma]
-        var tamplate = `<div class="beach"><p>${beaches[i][0]}</p><img src=${beaches[i][1]} alt=${beaches[i][2]}><a href=${beaches[i][3]} target="_blank" ><p>詳細</p></a></div>`
+        var template = `<div class="beach"><p>${beaches[i][0]}</p><img src=${beaches[i][1]} alt=${beaches[i][2]}><a href=${beaches[i][3]} target="_blank" ><p>詳細</p></a></div>`
         
-        $(".result").html(tamplate)
-        // ランダム
-        
+        $(".result").html(template)
 
-        console.log($('.beach').fadeIn());
+       
+        $('.beach').fadeIn(2000);
+        // $(".beach").animate({opacity:1},);
 
-
-        // $(".beach").each( function(index, value) {
- 
-        //     console.log(value);
-        //     console.log(index);
-        //     console.log($(this));
-
-        //     // if(i==index){
-        //     //     $(this).fadeIn();
-        //     // }
-        // })
 })
 
 
