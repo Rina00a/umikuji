@@ -212,6 +212,7 @@
 
 .beach img{
     /* display: none; */
+    margin-top: 15px;
     width: 400px;
     height: 300px;
 
@@ -220,8 +221,6 @@
 
 p{
     font-size: 50px;
-    font-family: 'Dancing Script', cursive;
-    /* font-family: 'Merriweather', serif; */
 }
 
 #box-btn{
